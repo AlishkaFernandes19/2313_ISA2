@@ -42,7 +42,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running Docker container...'
-                    bat 'docker run -d --name 2313 -p 5000:5000 2313ISA:latest'
+                    bat 'docker run -d --name 2313 -p 5000:5000 2313isa:latest'
                 }
             }
         }
