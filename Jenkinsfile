@@ -4,7 +4,7 @@ pipeline {
         stage('Clean Workspace') {
             steps {
                 script {
-                    echo 'Cleaning workspace...'
+                    echo 'Cleaning workspace.....'
                     bat 'if exist Jenkins-pipeline rd /s /q Jenkins-pipeline'
                 }
             }
