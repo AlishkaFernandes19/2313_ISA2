@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building Docker image...'
-                    bat 'docker build -t 2313ISA:latest .'
+                    bat 'docker build -t isa2:latest .'
                 }
             }
         }
